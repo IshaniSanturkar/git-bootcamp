@@ -1,4 +1,4 @@
-/* 
+/*
  * Code for basic C skills diagnostic.
  * Developed for courses 15-213/18-213/15-513 by R. E. Bryant, 2017
  * Modified to store strings, 2018
@@ -86,6 +86,7 @@ bool q_remove_head(queue_t *q, char *sp, size_t bufsize)
     q->head = q->head->next;
     return true;
 }
+/* Trial */
 
 /*
   Return number of elements in queue.
